@@ -34,7 +34,7 @@
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Basketball <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#/nba">NBA</a></li>
+              <li><a href="#/nba">Action</a></li>
               <li><a href="#">Another action</a></li>
               <li><a href="#">Something else here</a></li>
               <li class="divider"></li>
