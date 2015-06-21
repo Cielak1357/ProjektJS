@@ -14,6 +14,7 @@ angular.module('myApp', [
   'myApp.ca2015',
   'myApp.acb',
   'myApp.fiba',
+  'myApp.cl2015',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
