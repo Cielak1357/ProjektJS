@@ -30,6 +30,17 @@ app.get('/checkUser'), function(req, res){
   }
 }
 
+app.get('/signUp'), function(req, res){
+  var log = req.query.login;
+  var pass = req.query.password;
+  var mail = req.query.email;
+  var favPage = req.query.favPage
+  setUsers(res, log, pass, mail, favPage);
+  console.log(res);
+  getUsers();
+}
+
+
 app.get('/signOut'), function(req, res){
   currentUser=-1;
 }

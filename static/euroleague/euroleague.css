@@ -1,18 +1,18 @@
-.nbaDiv
+.euroleagueDiv
 {
     width: 100%;
-    height: 1650px;
+    height: 1550px;
     overflow: hidden;
     position: relative;
     overflow: hidden;
 }
 
-.nbaFrame
+.euroleagueFrame
 {
     position: absolute;
-    top: -240px;
+    top: -205px;
     width: 100%;
-    height: 1890px;
+    height: 1755px;
     border:none;
     overflow: hidden;
 }
