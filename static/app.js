@@ -4,6 +4,7 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.home',
   'myApp.nba',
+  'myApp.euroleague',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
