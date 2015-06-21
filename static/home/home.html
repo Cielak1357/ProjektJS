@@ -1,17 +1,39 @@
 <div ng-controller="homeCtrl">
  <div class="center" id="signUp">
-   <h1 class="center"> Don't you have account yet? SignUp for free! </h1>
-  </ul>
-      <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-
-      <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
-      <span class="input-group-addon" id="basic-addon2">@example.com</span>
-
-    <div class="input-group">
-      <span class="input-group-addon">$</span>
-      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-      <span class="input-group-addon">.00</span>
-    </div>
+   <h2 class="center"> Don't you have account yet? SignUp for free! </h1>
   <ul>
+    <il>
+      <h4> Username: </h4>
+      <input type="text" class="signForm" placeholder="" aria-describedby="basic-addon1">
+    </il>
+    <il>
+      <h4> Password: </h4>
+      <input type="password" class="signForm" placeholder="*******" aria-describedby="basic-addon1">
+    </il>
+    <il>
+      <h4> E-Mail: </h4>
+      <input type="email" class="signForm" placeholder="someone@example.com" aria-describedby="basic-addon1">
+    </il>
+    <il>
+      <h4> Favorite page: </h4>
+      <select>
+        <option value="nba">NBA</option>
+        <option value="euroleague">Euroleague</option>
+        <option value="acb">ACB</option>
+        <option value="wnba">WNBA</option>
+        <option value="international">International</option>
+        <option value="euro2016">EURO 2016 Qualifiers</option>
+        <option value="fifa">FIFA Women's World Cup 2015</option>
+        <option value="copaamerica">Copa America 2015</option>
+        <option value="premierleague">Premier League</option>
+        <option value="primeradivision">Primera Division</option>
+        <option value="bundesliga">Bundesliga</option>
+        <option value="seriea">Serie A</option>
+        <option value="ligue1">Ligue 1</option>
+        <option value="uefacl">UEFA Champions' League</option>
+        <option value="uefael">UEFA Europa League</option>
+      </select>
+    </il>
+  </ul>
  </div>
 </div>
