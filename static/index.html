@@ -8,15 +8,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-  <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="nba/nba.css">
+  <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="home/home.css">
+  <link rel="stylesheet" href="nba/nba.css">
+  <link rel="stylesheet" href="wnba/wnba.css">
+  <link rel="stylesheet" href="euroleague/euroleague.css">
+  <link rel="stylesheet" href="premierLeague/premierLeague.css">
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
   <div ng-controller="loginCtrl">
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default" >
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -42,7 +45,7 @@
               <li class="divider"></li>
               <li><a href="#">Copa America 2015</a></li>
               <li class="divider"></li>
-              <li><a href="#">Premier League</a></li>
+              <li><a href="#/premierLeague">Premier League</a></li>
               <li><a href="#">Primera Division</a></li>
               <li><a href="#">Bundesliga</a></li>
               <li><a href="#">Serie A</a></li>
@@ -61,7 +64,7 @@
               <li><a href="#/nba">NBA</a></li>
               <li><a href="#/euroleague">Euroleague</a></li>
               <li><a href="#">ACB</a></li>
-              <li><a href="#">WNBA</a></li>
+              <li><a href="#/wnba">WNBA</a></li>
               <li class="divider"></li>
               <li><a href="#">International</a></li>
             </ul>
@@ -137,10 +140,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script src="app.js"></script>
   <script src="home/home.js"></script>
   <script src="nba/nba.js"></script>
+  <script src="wnba/wnba.js"></script>
   <script src ="euroleague/euroleague.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="premierLeague/premierLeague.js"></script>
+
 </body>
 </html>
