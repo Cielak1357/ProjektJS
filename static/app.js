@@ -17,6 +17,7 @@ angular.module('myApp', [
   'myApp.cl2015',
   'myApp.bundesliga',
   'myApp.pd',
+  'myApp.el2015',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
