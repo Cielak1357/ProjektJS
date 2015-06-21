@@ -9,6 +9,7 @@ angular.module('myApp', [
   'myApp.euroleague',
   'myApp.wnba',
   'myApp.premierLeague',
+  'myApp.euro2016',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
