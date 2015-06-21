@@ -1,5 +1,7 @@
 'use strict';
-
+//TODO w zaleznosci od tego czy zalogowany, homePage ma byc na favPage ustawiony (spytaj sie jak)
+//TODO napraw logowanie
+//TODO dodaj rejerstracje (chyba skonczone, zrob testy)
 angular.module('myApp', [
   'ngRoute',
   'myApp.home',

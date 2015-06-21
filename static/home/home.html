@@ -1,22 +1,22 @@
 <div ng-controller="homeCtrl">
  <div class="center" id="signUp">
-   <h2 class="center"> Don't you have account yet? SignUp for free! </h1>
+   <h2 class="center"> Don't you have account yet? SignUp for free! </h2>
   <ul>
     <il>
       <h4> Username: </h4>
-      <input type="text" class="signForm" placeholder="" aria-describedby="basic-addon1">
+      <input type="text" class="signForm" placeholder="" aria-describedby="basic-addon1" ng-model="login"></input>
     </il>
     <il>
       <h4> Password: </h4>
-      <input type="password" class="signForm" placeholder="*******" aria-describedby="basic-addon1">
+      <input type="password" class="signForm" placeholder="*******" aria-describedby="basic-addon1" ng-model="password"></input>
     </il>
     <il>
       <h4> E-Mail: </h4>
-      <input type="email" class="signForm" placeholder="someone@example.com" aria-describedby="basic-addon1">
+      <input type="email" class="signForm" placeholder="someone@example.com" aria-describedby="basic-addon1" ng-model="email"></input>
     </il>
     <il>
       <h4> Favorite page: </h4>
-      <select>
+      <select ng-model="favPage">
         <option value="nba">NBA</option>
         <option value="euroleague">Euroleague</option>
         <option value="acb">ACB</option>
@@ -33,6 +33,10 @@
         <option value="uefacl">UEFA Champions' League</option>
         <option value="uefael">UEFA Europa League</option>
       </select>
+      <input type="submit" value="Sign Up!" ng-onclick="signUp()" style="margin-left:30px"></input>
+    </il>
+    <il>
+      <p ng-show="hasSignedUp">Done! Now sign into your new account!</p>
     </il>
   </ul>
  </div>
