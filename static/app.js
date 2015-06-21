@@ -13,6 +13,7 @@ angular.module('myApp', [
   'myApp.fifa2015',
   'myApp.ca2015',
   'myApp.acb',
+  'myApp.fiba',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
