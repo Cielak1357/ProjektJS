@@ -1,0 +1,18 @@
+.serieADiv
+{
+    width: 100%;
+    height:1000px;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+}
+
+.serieAFrame
+{
+    position: absolute;
+    top: -530px;
+    width: 100%;
+    height: 1500px;
+    border:none;
+    overflow: hidden;
+}
