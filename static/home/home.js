@@ -7,7 +7,7 @@ angular.module('myApp.home', ['ngRoute'])
     controller: 'homeCtrl'
   });
 }])
-.controller('homeCtrl', function($scope) {
+.controller('homeCtrl', function($scope, $http) {
 
   $scope.login="";
   $scope.password="";
@@ -17,10 +17,14 @@ angular.module('myApp.home', ['ngRoute'])
   $scope.hasSignedUp=false;
 
   $scope.signUp = function(){
-    $http.get('/signUp?login='+$scope.login+'&password='+$scope.password+'&email='+$scope.email+'&favPage'+$scope.favPage)
-     .success(function(res){
-       $scope.hasSignedUp=true;
-     });
+    if($scope.login != "" && $scope.password != "" && $scope.email != "" && $scope.favPage != "")
+      $http.get('/signUp?login='+$scope.login+'&password='+$scope.password+'&email='+$scope.email+'&favPage='+$scope.favPage)
+      .success(function(res){
+        $scope.hasSignedUp=true;
+      });
+    else {
+      alert("Wypełnij wszystkie pola!");
+    }
   }
 
 });
