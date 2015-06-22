@@ -3,32 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Sports Insider</title>
+  <title>WebAnsible</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="app.css">
-  <link rel="stylesheet" href="home/home.css">
-  <link rel="stylesheet" href="nba/nba.css">
-  <link rel="stylesheet" href="wnba/wnba.css">
-  <link rel="stylesheet" href="euro2016/euro2016.css">
-  <link rel="stylesheet" href="fifa2015/fifa2015.css">
-  <link rel="stylesheet" href="ca2015/ca2015.css">
-  <link rel="stylesheet" href="cl2015/cl2015.css">
-  <link rel="stylesheet" href="el2015/el2015.css">
-  <link rel="stylesheet" href="bundesliga/bundesliga.css">
-  <link rel="stylesheet" href="acb/acb.css">
-  <link rel="stylesheet" href="pd/pd.css">
-  <link rel="stylesheet" href="fiba/fiba.css">
-  <link rel="stylesheet" href="euroleague/euroleague.css">
-  <link rel="stylesheet" href="premierLeague/premierLeague.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
   <div ng-controller="loginCtrl">
-  <nav class="navbar navbar-default" >
+  <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -38,7 +24,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Sports Insider</a> <!-- dodaj marke -->
+        <a class="navbar-brand" href="#">Brand</a> <!-- dodaj marke -->
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -46,58 +32,54 @@
           <li class="active"><a href="#/home">Home <span class="sr-only">(current)</span></a></li>
 
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Football <span class="caret"></span></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Basketball <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#/euro2016">EURO 2016 Qualifiers</a></li>
+              <li><a href="#/nba">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
               <li class="divider"></li>
-              <li><a href="#/fifa2015">FIFA Women's World Cup 2015</a></li>
+              <li><a href="#">Separated link</a></li>
               <li class="divider"></li>
-              <li><a href="#/ca2015">Copa America 2015</a></li>
-              <li class="divider"></li>
-              <li><a href="#/premierLeague">Premier League</a></li>
-              <li><a href="#/pd">Primera Division</a></li>
-              <li><a href="#/bundesliga">Bundesliga</a></li>
-              <li><a href="#">Serie A</a></li>
-              <li><a href="#">Ligue 1</a></li>
-              <li class="divider"></li>
-              <li><a href="#/cl2015">UEFA Champions' League</a></li>
-              <li class="divider"></li>
-              <li><a href="#/el2015">UEFA Europa League</a></li>
+              <li><a href="#">One more separated link</a></li>
             </ul>
           </li>
 
-
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Basketball <span class="caret"></span></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Football <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#/nba">NBA</a></li>
-              <li><a href="#/euroleague">Euroleague</a></li>
-              <li><a href="#/acb">ACB</a></li>
-              <li><a href="#/wnba">WNBA</a></li>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
               <li class="divider"></li>
-              <li><a href="#/fiba">International</a></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
             </ul>
           </li>
 
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tennis <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">WTA</a></li>
-              <li><a href="#">ATP</a></li>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
               <li class="divider"></li>
-              <li><a href="#">Australian Open 2015</a></li>
+              <li><a href="#">Separated link</a></li>
               <li class="divider"></li>
-              <li><a href="#">Roland Garros 2015</a></li>
+              <li><a href="#">One more separated link</a></li>
             </ul>
           </li>
 
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ice Hockey<span class="caret"></span></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ice Hockey <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">NHL</a></li>
-              <li><a href="#">KHL</a></li>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
               <li class="divider"></li>
-              <li><a href="#">International</a></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
             </ul>
           </li>
         </ul>
@@ -149,22 +131,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="js/bootstrap.min.js"></script>
   <script src="app.js"></script>
   <script src="home/home.js"></script>
   <script src="nba/nba.js"></script>
-  <script src="wnba/wnba.js"></script>
-  <script src="euroleague/euroleague.js"></script>
-  <script src="premierLeague/premierLeague.js"></script>
-  <script src="euro2016/euro2016.js"></script>
-  <script src="fifa2015/fifa2015.js"></script>
-  <script src="ca2015/ca2015.js"></script>
-  <script src="cl2015/cl2015.js"></script>
-  <script src="el2015/el2015.js"></script>
-  <script src="bundesliga/bundesliga.js"></script>
-  <script src="acb/acb.js"></script>
-  <script src="fiba/fiba.js"></script>
-  <script src="pd/pd.js"></script>
-
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
